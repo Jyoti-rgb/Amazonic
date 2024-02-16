@@ -8,7 +8,7 @@ const data = {
       price: 120,
       brand: "Allen Solly",
       rating: 4.5,
-      numReview: 10,
+      numReview: 13,
       description: "high quality product",
     },
     {
@@ -18,8 +18,8 @@ const data = {
       image: "images/img_2.jpg",
       price: 90,
       brand: "Allen Solly",
-      rating: 4.5,
-      numReview: 10,
+      rating: 5,
+      numReview: 20,
       description: "high quality product",
     },
     {
@@ -29,7 +29,7 @@ const data = {
       image: "images/img_3.jpg",
       price: 180,
       brand: "Allen Solly",
-      rating: 4.5,
+      rating: 3,
       numReview: 10,
       description: "high quality product",
     },
@@ -41,7 +41,7 @@ const data = {
       price: 120,
       brand: "Allen Solly",
       rating: 4.5,
-      numReview: 10,
+      numReview: 50,
       description: "high quality product",
     },
     {
@@ -52,7 +52,7 @@ const data = {
       price: 100,
       brand: "Allen Solly",
       rating: 4.5,
-      numReview: 10,
+      numReview: 34,
       description: "high quality product",
     },
     {
@@ -63,7 +63,7 @@ const data = {
       price: 70,
       brand: "Allen Solly",
       rating: 4.5,
-      numReview: 10,
+      numReview: 15,
       description: "high quality product",
     },
     {
@@ -74,7 +74,7 @@ const data = {
       price: 200,
       brand: "QUEEN",
       rating: 4.5,
-      numReview: 10,
+      numReview: 7,
       description: "high quality product",
     },
     {
@@ -85,7 +85,7 @@ const data = {
       price: 230,
       brand: "Allen Solly",
       rating: 4.5,
-      numReview: 10,
+      numReview: 8,
       description: "high quality product",
     },
   ],
