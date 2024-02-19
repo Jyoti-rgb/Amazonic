@@ -4,12 +4,12 @@ function Product(props) {
   const { product } = props;
   return (
     <>
-      <li key={product._id}>
+      <li>
         <div className="product">
-          <img className="product-image" src={product.image} alt="productuct" />
+          <img className="product-image" src={product.image} alt="product" />
           <div className="product-details">
             <div className="product-name">
-              <a href="product.html">{product.name}</a>
+              <a href={`/product/${product._id}`}>{product.name}</a>
             </div>
             <div className="product-brand">{product.brand}</div>
             <div className="product-price">${product.price}</div>

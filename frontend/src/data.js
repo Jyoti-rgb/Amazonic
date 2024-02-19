@@ -1,11 +1,21 @@
+import Img1 from "./assets/images/img_1.jpg";
+import Img2 from "./assets/images/img_2.jpg";
+import Img3 from "./assets/images/img_3.jpg";
+import Img4 from "./assets/images/img_4.jpg";
+import Img5 from "./assets/images/img_5.jpg";
+import Img6 from "./assets/images/img_6.jpg";
+import Img7 from "./assets/images/img_7.jpg";
+import Img8 from "./assets/images/img_4.jpg";
+
 const data = {
   products: [
     {
       _id: "1",
       name: "Women Floral Print Anarkali Kurta with Pant and Dupatta",
       category: "Weston dress",
-      image: "images/img_1.jpg",
+      image: Img1,
       price: 120,
+      countInStock: 10,
       brand: "Allen Solly",
       rating: 4.5,
       numReview: 13,
@@ -15,8 +25,9 @@ const data = {
       _id: "2",
       name: "AASK Kurta for Women Dress",
       category: "Weston dress",
-      image: "images/img_2.jpg",
+      image: Img2,
       price: 90,
+      countInStock: 10,
       brand: "Allen Solly",
       rating: 5,
       numReview: 20,
@@ -26,8 +37,9 @@ const data = {
       _id: "3",
       name: " AAYU FIT & Flare Georgette Calf Length Dress for Women",
       category: "Weston dress",
-      image: "images/img_3.jpg",
+      image: Img3,
       price: 180,
+      countInStock: 50,
       brand: "Allen Solly",
       rating: 3,
       numReview: 10,
@@ -37,8 +49,9 @@ const data = {
       _id: "4",
       name: "Sheetal Associates Women Casual Regular Sleeves Crepe Solid Fit and Flare Dress",
       category: "Weston dress",
-      image: "images/img_4.jpg",
+      image: Img4,
       price: 120,
+      countInStock: 15,
       brand: "Allen Solly",
       rating: 4.5,
       numReview: 50,
@@ -48,8 +61,9 @@ const data = {
       _id: "5",
       name: "QUEEN ELLIE Women's A-Line Midi Dress",
       category: "Weston dress",
-      image: "images/img_5.jpg",
+      image: Img5,
       price: 100,
+      countInStock: 0,
       brand: "Allen Solly",
       rating: 4.5,
       numReview: 34,
@@ -59,8 +73,9 @@ const data = {
       _id: "6",
       name: "Western Dresses for Women",
       category: "Weston dress",
-      image: "images/img_6.jpg",
+      image: Img6,
       price: 70,
+      countInStock: 25,
       brand: "Allen Solly",
       rating: 4.5,
       numReview: 15,
@@ -70,8 +85,9 @@ const data = {
       _id: "7",
       name: "QUEEN ELLIE Women's A-Line Midi Dress",
       category: "Weston dress",
-      image: "images/img_5.jpg",
+      image: Img7,
       price: 200,
+      countInStock: 4,
       brand: "QUEEN",
       rating: 4.5,
       numReview: 7,
@@ -81,8 +97,9 @@ const data = {
       _id: "8",
       name: "AASK Kurta for Women Dress",
       category: "Weston dress",
-      image: "images/img_2.jpg",
+      image: Img8,
       price: 230,
+      countInStock: 9,
       brand: "Allen Solly",
       rating: 4.5,
       numReview: 8,
