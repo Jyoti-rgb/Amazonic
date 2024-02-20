@@ -1,11 +1,11 @@
-// import Img1 from "./assets/images/img_1.jpg";
-// import Img2 from "./assets/images/img_2.jpg";
-// import Img3 from "./assets/images/img_3.jpg";
-// import Img4 from "./assets/images/img_4.jpg";
-// import Img5 from "./assets/images/img_5.jpg";
-// import Img6 from "./assets/images/img_6.jpg";
-// import Img7 from "./assets/images/img_7.jpg";
-// import Img8 from "./assets/images/img_4.jpg";
+// import Img1 from "../frontend/src/assets/images/img_1.jpg";
+// import Img2 from "../frontend/src/assets/images/img_2.jpg";
+// import Img3 from "../frontend/src/assets/images/img_3.jpg";
+// import Img4 from "../frontend/src/assets/images/img_4.jpg";
+// import Img5 from "../frontend/src/assets/images/img_5.jpg";
+// import Img6 from "../frontend/src/assets/images/img_6.jpg";
+// import Img7 from "../frontend/src/assets/images/img_7.jpg";
+// import Img8 from "../frontend/src/assets/images/img_4.jpg";
 
 const data = {
   products: [
@@ -13,6 +13,7 @@ const data = {
       _id: "1",
       name: "Women Floral Print Anarkali Kurta with Pant and Dupatta",
       category: "Weston dress",
+      // image: Img1,
       image: "../frontend/src/assets/images/img_1.jpg",
       price: 120,
       countInStock: 10,

@@ -46,6 +46,7 @@ body {
 }
 .main {
   grid-area: main;
+  height: 100vh;
 }
 
 ul {
@@ -173,9 +174,27 @@ a:hover {
 .col-2 {
   flex: 2 1 50rem;
 }
+/* Alert */
+
 .success {
   color: #20a020;
 }
-.error {
+.danger {
   color: #a02020;
+}
+
+.alert {
+  border: 1rem solid transparent;
+  padding: 1rem;
+  border: 0.5rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+.alert-info {
+  color: #2020a0;
+  background-color: #e0e0ff;
+}
+.alert-danger {
+  color: #a02020;
+  background-color: #ffe0e0e0;
 }
