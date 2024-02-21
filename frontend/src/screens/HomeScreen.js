@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-// import data from "../data.js";
+import data from "../data.js";
 import Product from "../components/Product.js";
 import LoadingBox from "../components/LoadingBox.js";
 import MessageBox from "../components/MessageBox.js";
@@ -40,6 +40,13 @@ function HomeScreen() {
           </ul>
         </div>
       )}
+      {/* <div className="content">
+        <ul className="products">
+          {data.products.map((prod) => (
+            <Product key={prod._id} product={prod} />
+          ))}
+        </ul>
+      </div> */}
     </>
   );
 }

@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Product from "./components/Product.js";
 
 import HomeScreen from "./screens/HomeScreen.js";
-import ProductScreen from "./screens/ProductScreen.js";
+// import ProductScreen from "./screens/ProductScreen.js";
 
 function App() {
   // const { id } = useParams();
@@ -25,7 +25,7 @@ function App() {
         </header>
         <main className="main">
           <Routes>
-            <Route path="/product/:id" Component={ProductScreen} />
+            {/* <Route path="/product/:id" Component={ProductScreen} /> */}
             <Route path="/" Component={HomeScreen} />
           </Routes>
         </main>

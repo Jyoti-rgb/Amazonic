@@ -1,8 +1,8 @@
 import express from "express";
 import data from "./data.js";
-// const express = require("express");
-// const data = require("./data");
 const app = express();
+
+app.use(express.static("public"));
 
 app.get("/api/products", (req, res) => {
   res.send(data.products);

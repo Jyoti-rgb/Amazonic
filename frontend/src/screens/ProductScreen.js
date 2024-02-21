@@ -2,6 +2,7 @@ import React from "react";
 import data from "../data.js";
 import Rating from "../components/Rating.js";
 import { useParams, Link } from "react-router-dom";
+// import axios from "axios";
 // import Product from "../components/Product.js";
 
 function ProductScreen() {
@@ -11,6 +12,7 @@ function ProductScreen() {
   if (!product) {
     return <div>Product Not Found</div>;
   }
+
   return (
     <div className="product-col">
       <Link to="/">Back to result</Link>
