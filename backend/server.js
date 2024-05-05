@@ -12,6 +12,7 @@ app.get("/", (req, res) => {
   res.send("Hello web Server");
 });
 
-app.listen("5000", (req, res) => {
-  console.log("Server have started on 5000 port");
+const port = process.env.Port || 5000;
+app.listen(port, (req, res) => {
+  console.log(`Server have started on ${port} port `);
 });

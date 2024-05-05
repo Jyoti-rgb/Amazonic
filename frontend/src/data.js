@@ -15,7 +15,7 @@ const data = {
       name: "Women Floral Print Anarkali Kurta with Pant and Dupatta",
       category: "Weston dress",
       // image: Img1,
-      // image: require("./assets/images/img_1.jpg"),
+      image: require("./assets/images/img_1.jpg"),
 
       price: 120,
       countInStock: 10,
