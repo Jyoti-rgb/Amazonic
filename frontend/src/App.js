@@ -25,7 +25,7 @@ function App() {
         </header>
         <main className="main">
           <Routes>
-            <Route path="/product/:id" Component={ProductScreen} />
+            <Route path="product/:id" Component={ProductScreen} />
             <Route path="/" Component={HomeScreen} exact />
           </Routes>
         </main>
