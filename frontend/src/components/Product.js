@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Rating from "./Rating";
 
 function Product(props) {
@@ -9,7 +10,7 @@ function Product(props) {
           <img className="product-image" src={product.image} alt="product" />
           <div className="product-details">
             <div className="product-name">
-              <a href={`/product/${product._id}`}>{product.name}</a>
+              <Link to={`/product/${product._id}`}>{product.name}</Link>
             </div>
             <div className="product-brand">{product.brand}</div>
             <div className="product-price">${product.price}</div>

@@ -2,7 +2,7 @@ import express from "express";
 import data from "./data.js";
 const app = express();
 
-// app.use(express.static("public"));
+app.use(express.static("public"));
 
 app.get("/api/products/:id", (req, res) => {
   const product = data.products.find((x) => x._id === req.params.id);

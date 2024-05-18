@@ -38,7 +38,8 @@ const data = {
     },
     {
       _id: "4",
-      name: "Sheetal Associates Women Casual Regular Sleeves Crepe Solid Fit and Flare Dress",
+      name: "Sheetal Associates Women Casual ",
+      // "Regular Sleeves Crepe Solid Fit and Flare Dress"
       category: "Weston dress",
       image: "/images/img_4.jpg",
       price: 120,

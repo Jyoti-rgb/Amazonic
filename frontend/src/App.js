@@ -1,13 +1,13 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import data from "./data.js";
-// import Product from "./components/Product.js";
-
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen.js";
 import ProductScreen from "./screens/ProductScreen.js";
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import "bootstrap/dist/js/bootstrap.min.js";
+import CartScreen from "./screens/CartScreen.js";
+import { useSelector } from "react-redux";
+
 function App() {
+  const cart = useSelector((state) => state.cart);
+  const { cartItems } = cart;
   // const { id } = useParams();
   // const product = data.products.find((x) => x._id === id);
   // console.log(product);
@@ -16,15 +16,21 @@ function App() {
       <div className="grid-container">
         <header className="header">
           <div className="brand">
-            <a href="/">amazonic</a>
+            <Link to="/">amazonic</Link>
           </div>
           <div className="header-links">
-            <a href="/cart">Cart</a>
-            <a href="/signin">Sign In</a>
+            <Link to="/cart">
+              Cart
+              {cartItems.length > 0 && (
+                <span className="bidge">{cartItems.length}</span>
+              )}
+            </Link>
+            <Link to="/signin">Sign In</Link>
           </div>
         </header>
         <main className="main">
           <Routes>
+            <Route path="/cart/:id?" Component={CartScreen} />
             <Route path="product/:id" Component={ProductScreen} />
             <Route path="/" Component={HomeScreen} exact />
           </Routes>

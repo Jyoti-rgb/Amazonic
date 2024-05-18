@@ -58,16 +58,21 @@ li {
   margin-top: 1rem;
   font-size: 1.2rem;
 }
+input,
+select,
+textarea,
 button {
   padding: 1rem;
   border-radius: 0.5rem;
   border: 0.1rem #a4a4a4 solid;
-  background-color: #f8f8f8;
-  cursor: pointer;
   font-size: 1.6rem;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+button {
+  background-color: #f8f8f8;
+  cursor: pointer;
 }
 button.primary {
   background-color: #f0c040;
@@ -75,6 +80,9 @@ button.primary {
 button.block {
   width: 100%;
 }
+input:hover,
+select:hover,
+textarea:hover,
 button:hover {
   border: 0.1rem #404040 solid;
 }
@@ -149,6 +157,10 @@ a:hover {
   color: #404040;
 }
 /* Product Screen */
+img.small {
+  max-width: 5rem;
+  width: 100%;
+}
 .large {
   width: 75%;
   margin-left: 80px;
@@ -169,15 +181,20 @@ a:hover {
   margin-left: 2rem;
   margin-right: 84px;
 }
-
+.col-2 {
+  flex: 2 1 50rem;
+}
+.col-8 {
+  width: 70%;
+}
+.min-30 {
+  min-width: 30rem;
+}
 .col-box {
   background-color: #f6f2f2;
   margin-right: 26px;
   border-radius: 4px;
   padding: 10px;
-}
-.col-2 {
-  flex: 2 1 50rem;
 }
 .cart-box {
   border: 2px solid gray;
@@ -221,4 +238,23 @@ a:hover {
 .product-col {
   padding-top: 10px;
   padding-left: 10px;
+}
+
+/* Card Screen */
+.card {
+  border: 1px solid gray;
+  width: 23%;
+  height: 18%;
+  padding: 17px;
+  position: absolute;
+  right: 23px;
+  border-radius: 7px;
+  background-color: #ede8e8;
+}
+.bidge {
+  background-color: #a02020;
+  border-radius: 50%;
+  padding: 8px;
+  margin: 8px;
+  font-size: 16px;
 }
