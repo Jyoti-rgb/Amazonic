@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useEffect } from "react";
 // import data from "../data.js";
 import Product from "../components/Product.js";
 import LoadingBox from "../components/LoadingBox.js";

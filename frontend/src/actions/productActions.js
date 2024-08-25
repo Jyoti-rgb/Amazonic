@@ -9,6 +9,7 @@ import {
 } from "../constants/productConstants";
 
 export const listProducts = () => async (dispatch) => {
+  console.log("listProducts action called");
   dispatch({
     type: PRODUCT_LIST_REQUEST,
   });

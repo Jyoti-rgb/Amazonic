@@ -54,6 +54,9 @@ function ProductScreen(props) {
                 </li>
                 <li>Price : ${product.price}</li>
                 <li>Description : ${product.description}</li>
+                <li>
+                  <img className="small" src={product.image} alt="product" />
+                </li>
               </ul>
             </div>
             <div className="col-1 cart-box">
