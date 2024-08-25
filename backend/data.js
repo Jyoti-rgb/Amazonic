@@ -16,7 +16,6 @@ const data = {
   ],
   products: [
     {
-      _id: "1",
       name: "Women Floral Print Anarkali Kurta with Pant and Dupatta",
       category: "Weston dress",
       image: "/images/img_1.jpg",
@@ -28,7 +27,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "2",
       name: "AASK Kurta for Women Dress",
       category: "Weston dress",
       image: "/images/img_2.jpg",
@@ -40,7 +38,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "3",
       name: " AAYU FIT & Flare Georgette Calf Length Dress for Women",
       category: "Weston dress",
       image: "/images/img_3.jpg",
@@ -52,7 +49,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "4",
       name: "Sheetal Associates Women Casual ",
       // "Regular Sleeves Crepe Solid Fit and Flare Dress"
       category: "Weston dress",
@@ -65,7 +61,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "5",
       name: "QUEEN ELLIE Women's A-Line Midi Dress",
       category: "Weston dress",
       image: "/images/img_5.jpg",
@@ -77,7 +72,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "6",
       name: "Western Dresses for Women",
       category: "Weston dress",
       image: "/images/img_6.jpg",
@@ -89,7 +83,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "7",
       name: "QUEEN ELLIE Women's A-Line Midi Dress",
       category: "Weston dress",
       image: "/images/img_7.jpg",
@@ -101,7 +94,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "8",
       name: "AASK Kurta for Women Dress",
       category: "Weston dress",
       image: "/images/img_4.jpg",
@@ -113,7 +105,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "9",
       name: "Nike Slim Shirt",
       category: "Shirts",
       image: "/images/p1.jpg",
@@ -126,7 +117,6 @@ const data = {
     },
 
     {
-      _id: "10",
       name: "Lacoste Free Shirt",
       category: "Shirts",
       image: "/images/p3.jpg",
@@ -138,7 +128,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "11",
       name: "Nike Slim Pant",
       category: "Pants",
       image: "/images/p4.jpg",
@@ -150,7 +139,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "12",
       name: "Puma Slim Pant",
       category: "Pants",
       image: "/images/p5.jpg",
@@ -162,7 +150,6 @@ const data = {
       description: "high quality product",
     },
     {
-      _id: "13",
       name: "Adidas Fit Pant",
       category: "Pants",
       image: "/images/p6.jpg",
