@@ -3,7 +3,13 @@ import data from "./data.js";
 import mongoose from "mongoose";
 import userRouter from "./Routers/userRouter.js";
 import productRouter from "./Routers/productRouter.js";
+import dotenv from "dotenv";
+
+dotenv.config();
 const app = express();
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static("public"));
 
